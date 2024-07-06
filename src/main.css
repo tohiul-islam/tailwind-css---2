@@ -1,0 +1,46 @@
+
+*{
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%
+}
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities{
+    .navar_link{
+        @apply  hover:text-green-500 hover:box-border w-full px-3 transition-all hover:rounded-full
+    }
+    .button_red{
+        @apply rounded-md pt-[16px] pb-[15px] px-[36px] shadow-md   hover:bg-[#f66784] transition  hover:scale-95 active:translate-y-2
+    }
+    .compani{ @apply   text-start ms-3  ;
+    }
+    .repeat_border{
+        @apply font-semibold text-xl  border-b-2 border-[#F9CCC7] py-4 ;
+    }
+    .border_btn{
+        @apply  outline-offset-1 outline outline-red-300 hover:outline-none  px-2  rounded-full hover:bg-[#85353c42]  
+    }
+    .card_btn{
+        @apply col-span-12 md:col-span-6  shadow-md mx-auto  rounded-[10px] rounded-t-md bg-[#FFF] pb-4 md:pb-5 ;
+    }
+    .img_flex{
+        @apply flex gap-4 items-center text-[181818]
+    }
+    .aro_bnt{
+        @apply size-6 bg-[#f9ccc78b] rounded-full p-[2px] 
+    }
+    .button_grop {
+        @apply outline px-5 ms-4 rounded-full text-lg my-2 hover:bg-[#1900ffc6] transition-all hover:scale-x-90 ;
+    }
+    .list{
+        @apply bg-[#F9CCC7] w-2 h-2 rounded-full inline-block mr-2
+    }
+    .card_title{
+        @apply text-[#F9CCC7]  text-lg
+    }
+}
