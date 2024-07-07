@@ -23,10 +23,10 @@
         @apply font-semibold text-xl  border-b-2 border-[#F9CCC7] py-4 ;
     }
     .border_btn{
-        @apply  outline-offset-1 outline outline-red-300 hover:outline-none  px-2  rounded-full hover:bg-[#85353c42]  
+        @apply dark:hover:bg-[#445674]  outline-offset-1 outline outline-red-300 hover:outline-none hover:px-2  px-2  rounded-full hover:bg-[#85353c42]  
     }
     .card_btn{
-        @apply col-span-12 md:col-span-6  shadow-md mx-auto  rounded-[10px] rounded-t-md bg-[#FFF] pb-4 md:pb-5 ;
+        @apply dark:bg-gray-800 col-span-12 md:col-span-6  shadow-md mx-auto  rounded-[10px] rounded-t-md bg-[#FFF] pb-4 md:pb-5 ;
     }
     .img_flex{
         @apply flex gap-4 items-center text-[181818]
